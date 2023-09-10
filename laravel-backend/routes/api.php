@@ -28,7 +28,6 @@ Route::post("/decrypt-data", function (Request $request) {
     }
     $key = PublicKeyLoader::load(file_get_contents(storage_path('private_key.pem')));
     $key = $key->withPadding(RSA::ENCRYPTION_PKCS1);
-    $request_data = [];
     $decrypted_data = json_decode($key->decrypt(base64_decode($request->encrypted)));
 
     return response()->json([

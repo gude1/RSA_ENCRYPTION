@@ -67,19 +67,17 @@ function App() {
   return (
     <form onSubmit={onSubmit}>
       <h2>
-        Simple form to demonstration Rsa Encryption between a react and laravel
+        Simple form to demonstrate Rsa Encryption between a react and laravel
         application
       </h2>
       <label htmlFor="name">Name</label>
       <br />
       <input type="text" name="name" id="name" ref={nameRef} />
       <br />
-
-      <label htmlFor="phone"></label>
+      <br /> <label htmlFor="phone">Phone</label>
       <br />
       <input type="tel" name="phone" id="phone" ref={phoneRef} />
       <br />
-
       <br />
       <button type="submit">Submit</button>
       <div
