@@ -2,6 +2,9 @@
 This repository is to demonstrate how to encrypt and decrypt data between a react app and a laravel app using rsa encryption by making using of jsencrypt npm package for react and  phpseclib library for php laravel
 
 
+https://github.com/gude1/RSA_ENCRYPTION/assets/31147892/d486b17f-4a4f-4e26-b7cf-65ab669f8252
+
+
 ## Table of Contents
 * [Installation](#Installation)
 * [React setup](#React_Setup)
